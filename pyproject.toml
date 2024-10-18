@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "uplm-llms"
+version = "0.1.0"
+description = "This package collects weekly projects from several Uplimit courses on LLMs."
+authors = ["davidhornshaw <d.hornshaw@protonmail.com>"]
+license = "mit"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+numpy = "^2.1.2"
+pandas = "^2.2.3"
+argilla = "distilabel"
+huggingface-hub = "^0.26.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
