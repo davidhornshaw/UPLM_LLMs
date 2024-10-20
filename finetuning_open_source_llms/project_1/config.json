@@ -1,0 +1,9 @@
+{
+    "API_KEY": "<API_KEY>",
+    "API_URL": "<API_URL>",
+    "DATASET_NAME": "DIBT_10k_prompts",
+    "HF_REPOSITORY": "davidhornshaw/DIBT_10k_prompts",
+    "HF_TOKEN": "<HF_TOKEN>",
+    "LOCAL_MODEL": "./local_models/tinyllama_1.1b_chat",
+    "WORKSPACE": "uplm_projects"
+}
